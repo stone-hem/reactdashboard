@@ -1,14 +1,17 @@
 
 import React from 'react'
 import styledComponents from 'styled-components'
-import Dash from './pages/Dash'
+import Charts from './pages/Charts'
+import Nav from './pages/Nav'
 import Side from './pages/Side'
+
 
 function App() {
   return (
     <Div>
       <Side/>
-      <Dash/>
+      <Nav/>
+      <Charts/>
       </Div>
   )
 }
@@ -16,7 +19,7 @@ function App() {
 export default App
 
 const Div=styledComponents.div`
-
+height:100vh;
 `
 
 

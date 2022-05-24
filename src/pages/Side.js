@@ -26,10 +26,12 @@ function Side() {
 export default Side
 
 const Section=styledComponents.div`
-background:grey;
+margin-top:15px;
+margin-left:10px;
+background:#1e1e1e;
 float:left;
 width:250px;
-height:1000px;
+height:95vh;
 `
 const Logo=styledComponents.div`
 padding-top:15px;
