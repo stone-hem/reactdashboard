@@ -4,13 +4,14 @@ import styledComponents from 'styled-components'
 function Nav() {
   return (
     <Div>
+      <nav>
       <Welcome>
         <p>hi, admin! Welcome</p>
       </Welcome>
       <Right>
       <input name='search' placeholder='search text' type='text' size={25}/>
       </Right>
-      
+      </nav>
     </Div>
     
   )
@@ -21,7 +22,7 @@ export default Nav
 const Div=styledComponents.div`
 color:white;
 margin-top:20px;
-margin-right:65px;
+margin-left:65px;
 float:right;
 background:#1e1e1e;
 width:950px;
