@@ -2,16 +2,16 @@ import React from 'react'
 import styledComponents from 'styled-components'
 
 function Table() {
-  return (
-      <Section>
-    <div>Table</div>
-    </Section>
-  )
+    return (
+        <Section>
+            <div>Table</div>
+        </Section>
+    )
 }
 
 export default Table
 
-const Section=styledComponents.div`
+const Section = styledComponents.div`
 color:white;
 margin-top:10px;
 background:#1e1e1e;

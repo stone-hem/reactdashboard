@@ -1,12 +1,12 @@
-import React,{useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import styledComponents from 'styled-components'
-import {FaTaxi} from 'react-icons/fa'
+import { FaTaxi } from 'react-icons/fa'
 
 function Side() {
   return (
     <Section>
       <Top>
-        <Logo><FaTaxi/></Logo>
+        <Logo><FaTaxi /></Logo>
         <h1>my taxi</h1>
       </Top>
       <List>
@@ -25,7 +25,7 @@ function Side() {
 
 export default Side
 
-const Section=styledComponents.div`
+const Section = styledComponents.div`
 margin-top:15px;
 margin-left:10px;
 background:#1e1e1e;
@@ -33,12 +33,12 @@ float:left;
 width:250px;
 height:95vh;
 `
-const Logo=styledComponents.div`
+const Logo = styledComponents.div`
 padding-top:15px;
 padding-left:10px;
 `
 
-const Top=styledComponents.div`
+const Top = styledComponents.div`
 color:yellow;
 font-family: 'Permanent Marker', cursive;
 padding-top:10px;
@@ -49,7 +49,7 @@ h1{
 }
 
 `
-const List=styledComponents.div`
+const List = styledComponents.div`
 padding:10px;
 li{
   padding:10px;

@@ -47,11 +47,11 @@ function Charts() {
       amt: 2100,
     },
   ];
-  
+
   return (
     <Div>
-    <div>Charts</div>
-  
+      <div>Charts</div>
+
       <ResponsiveContainer width="60%" height="100%">
         <LineChart
           width={500}
@@ -79,7 +79,7 @@ function Charts() {
 
 export default Charts
 
-const Div=styledComponents.div`
+const Div = styledComponents.div`
 color:white;
 margin-top:10px;
 background:#1e1e1e;

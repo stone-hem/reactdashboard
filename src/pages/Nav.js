@@ -5,21 +5,21 @@ function Nav() {
   return (
     <Div>
       <nav>
-      <Welcome>
-        <p>hi, admin! Welcome</p>
-      </Welcome>
-      <Right>
-      <input name='search' placeholder='search text' type='text' size={25}/>
-      </Right>
+        <Welcome>
+          <p>hi, admin! Welcome</p>
+        </Welcome>
+        <Right>
+          <input name='search' placeholder='search text' type='text' size={25} />
+        </Right>
       </nav>
     </Div>
-    
+
   )
 }
 
 export default Nav
 
-const Div=styledComponents.div`
+const Div = styledComponents.div`
 color:white;
 margin-top:20px;
 margin-left:65px;
@@ -29,7 +29,7 @@ width:950px;
 height:80px;
 `
 
-const Right=styledComponents.div`
+const Right = styledComponents.div`
 float:right;
 margin-right:10px;
 margin-top:-20px;
@@ -43,7 +43,7 @@ input{
 }
 `
 
-const Welcome=styledComponents.div`
+const Welcome = styledComponents.div`
 margin-top:28px;
 margin-left:19px;
 `

@@ -2,6 +2,7 @@
 import React from 'react'
 import styledComponents from 'styled-components'
 import Charts from './pages/Charts'
+import Donat from './pages/Donat'
 import Nav from './pages/Nav'
 import Side from './pages/Side'
 import Table from './pages/Table'
@@ -10,19 +11,22 @@ import Table from './pages/Table'
 function App() {
   return (
     <Div>
-      <Side/>
+      <Side />
       <Flex>
-      <Nav/>
-      <Charts/>
-      <Table/>
+        <Nav />
+        <Row>
+          <Charts />
+          <Donat />
+        </Row>
+        <Table />
       </Flex>
-      </Div>
+    </Div>
   )
 }
 
 export default App
 
-const Div=styledComponents.div`
+const Div = styledComponents.div`
 height:100vh;
 
 
@@ -32,9 +36,13 @@ height:100vh;
   flex-direction:column;
 }
 `
-const Flex=styledComponents.div`
+const Flex = styledComponents.div`
 display:flex;
 flex-direction:column;
+`
+const Row = styledComponents.div`
+display:flex;
+flex-direction:row;
 `
 
 
